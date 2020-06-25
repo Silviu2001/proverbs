@@ -23,7 +23,7 @@ function setup() {
   button.mousePressed(markovIt);
   orderT = createDiv('order');
   orderT.position(15, 30);
-  orderS = createSlider(1,6,3,1);
+  orderS = createSlider(0,6,3,1);
   orderS.position(60,30);
   
   lenT = createDiv('length');
