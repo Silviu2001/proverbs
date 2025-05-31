@@ -14,7 +14,7 @@ function setup() {
     }
     ngrams[gram].push(txt.charAt(i + order));
   }
-  checkbox = createCheckbox('Avoid concatanated sentence', false);
+  checkbox = createCheckbox('Avoid concatanated sentences', false);
   checkbox.changed(myCheckedEvent);
   checkbox.position(12,8);
   
